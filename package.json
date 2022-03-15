@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-bartlett-test",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Bartlett’s test for equal variances.",
   "license": "Apache-2.0",
   "author": {
@@ -48,6 +48,7 @@
     "@stdlib/math-base-special-ln": "^0.0.x",
     "@stdlib/math-base-special-roundn": "^0.0.x",
     "@stdlib/stats-base-dists-chisquare-cdf": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-define-read-only-property": "^0.0.x",
     "@stdlib/utils-group": "^0.0.x",
