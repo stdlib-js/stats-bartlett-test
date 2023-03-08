@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/bartlett-test"
-click B href "https://github.com/stdlib-js/stats-bartlett-test/tree/main"
-click C href "https://github.com/stdlib-js/stats-bartlett-test/tree/production"
-click D href "https://github.com/stdlib-js/stats-bartlett-test/tree/esm"
-click E href "https://github.com/stdlib-js/stats-bartlett-test/tree/deno"
-click F href "https://github.com/stdlib-js/stats-bartlett-test/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/bartlett-test"
+%% click B href "https://github.com/stdlib-js/stats-bartlett-test/tree/main"
+%% click C href "https://github.com/stdlib-js/stats-bartlett-test/tree/production"
+%% click D href "https://github.com/stdlib-js/stats-bartlett-test/tree/esm"
+%% click E href "https://github.com/stdlib-js/stats-bartlett-test/tree/deno"
+%% click F href "https://github.com/stdlib-js/stats-bartlett-test/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/bartlett-test
