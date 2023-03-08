@@ -32,10 +32,14 @@ For `k` groups each with `n_i` observations, the test statistic is
 
 <!-- <equation class="equation" label="eq:bartlett-test-statistic" align="center" raw="\chi^2 = \frac{N\ln(S^2) - \sum_{i=0}^{k-1} n_i \ln(S_i^2)}{1 + \frac{1}{3(k-1)}\left(\sum_{i=0}^{k-1} \frac{1}{n_i} - \frac{1}{N}\right)}" alt="Equation for Bartlett's test statistic."> -->
 
-<div class="equation" align="center" data-raw-text="\chi^2 = \frac{N\ln(S^2) - \sum_{i=0}^{k-1} n_i \ln(S_i^2)}{1 + \frac{1}{3(k-1)}\left(\sum_{i=0}^{k-1} \frac{1}{n_i} - \frac{1}{N}\right)}" data-equation="eq:bartlett-test-statistic">
+```math
+\chi^2 = \frac{N\ln(S^2) - \sum_{i=0}^{k-1} n_i \ln(S_i^2)}{1 + \frac{1}{3(k-1)}\left(\sum_{i=0}^{k-1} \frac{1}{n_i} - \frac{1}{N}\right)}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\chi^2 = \frac{N\ln(S^2) - \sum_{i=0}^{k-1} n_i \ln(S_i^2)}{1 + \frac{1}{3(k-1)}\left(\sum_{i=0}^{k-1} \frac{1}{n_i} - \frac{1}{N}\right)}" data-equation="eq:bartlett-test-statistic">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@4b1db4ebd815eb54bf53a3fa132b992604743d9c/lib/node_modules/@stdlib/stats/bartlett-test/docs/img/equation_bartlett-test-statistic.svg" alt="Equation for Bartlett's test statistic.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -45,14 +49,30 @@ where `N` is the total number of observations, `S_i` are the biased group-level 
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-bartlett-test
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import bartlettTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-bartlett-test@deno/mod.js';
+var bartlettTest = require( '@stdlib/stats-bartlett-test' );
 ```
 
 #### bartlettTest( a\[,b,...,k]\[, opts] )
@@ -158,7 +178,7 @@ console.log( out.print() );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import bartlettTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-bartlett-test@deno/mod.js';
+var bartlettTest = require( '@stdlib/stats-bartlett-test' );
 
 // Data from Hollander & Wolfe (1973), p. 116:
 var x = [ 2.9, 3.0, 2.5, 2.6, 3.2 ];
@@ -209,8 +229,8 @@ var table = out.print();
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/vartest`][@stdlib/stats/vartest]</span><span class="delimiter">: </span><span class="description">two-sample F-test for equal variances</span>
--   <span class="package-name">[`@stdlib/stats/levene-test`][@stdlib/stats/levene-test]</span><span class="delimiter">: </span><span class="description">Levene's test for equal variances.</span>
+-   <span class="package-name">[`@stdlib/stats-vartest`][@stdlib/stats/vartest]</span><span class="delimiter">: </span><span class="description">two-sample F-test for equal variances</span>
+-   <span class="package-name">[`@stdlib/stats-levene-test`][@stdlib/stats/levene-test]</span><span class="delimiter">: </span><span class="description">Levene's test for equal variances.</span>
 
 </section>
 
@@ -225,7 +245,7 @@ var table = out.print();
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -269,7 +289,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -287,9 +307,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/vartest]: https://github.com/stdlib-js/stats-vartest/tree/deno
+[@stdlib/stats/vartest]: https://github.com/stdlib-js/stats-vartest
 
-[@stdlib/stats/levene-test]: https://github.com/stdlib-js/stats-levene-test/tree/deno
+[@stdlib/stats/levene-test]: https://github.com/stdlib-js/stats-levene-test
 
 <!-- </related-links> -->
 
