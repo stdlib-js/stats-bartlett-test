@@ -29,7 +29,7 @@ var bartlettTest = require( './../../dist' );
 
 // FIXTURES //
 
-var fixtures = require( './../..xtures/r/fixtures.json' );
+var fixtures = require( './../fixtures/r/fixtures.json' );
 
 
 // TESTS //
