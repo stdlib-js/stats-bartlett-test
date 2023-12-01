@@ -58,7 +58,7 @@
     "@stdlib/assert-contains": "^0.1.0",
     "@stdlib/assert-is-object": "^0.1.1",
     "@stdlib/assert-is-string": "^0.1.1",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/constants-float64-eps": "^0.1.1",
     "@stdlib/math-base-special-abs": "^0.1.1",
     "@stdlib/random-base-discrete-uniform": "^0.1.0",
