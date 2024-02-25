@@ -67,6 +67,11 @@ where `N` is the total number of observations, `S_i` are the biased group-level 
 ## Usage
 
 ```javascript
+import bartlettTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-bartlett-test@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-bartlett-test/tags). For example,
+
+```javascript
 import bartlettTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-bartlett-test@v0.2.1-esm/index.mjs';
 ```
 
@@ -178,7 +183,7 @@ console.log( out.print() );
 <body>
 <script type="module">
 
-import bartlettTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-bartlett-test@v0.2.1-esm/index.mjs';
+import bartlettTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-bartlett-test@esm/index.mjs';
 
 // Data from Hollander & Wolfe (1973), p. 116:
 var x = [ 2.9, 3.0, 2.5, 2.6, 3.2 ];
