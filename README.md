@@ -67,7 +67,7 @@ where `N` is the total number of observations, `S_i` are the biased group-level 
 ## Usage
 
 ```javascript
-import bartlettTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-bartlett-test@deno/mod.js';
+import bartlettTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-bartlett-test@v0.2.2-deno/mod.js';
 ```
 
 #### bartlettTest( a\[,b,...,k]\[, opts] )
@@ -173,7 +173,7 @@ console.log( out.print() );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import bartlettTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-bartlett-test@deno/mod.js';
+import bartlettTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-bartlett-test@v0.2.2-deno/mod.js';
 
 // Data from Hollander & Wolfe (1973), p. 116:
 var x = [ 2.9, 3.0, 2.5, 2.6, 3.2 ];
