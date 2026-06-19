@@ -1,4 +1,4 @@
-"use strict";var d=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var x=d(function(tr,V){
+"use strict";var d=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(t){throw (r=0, t)}};};var x=d(function(tr,V){
 function N(e){var r,t,i,o,n,s;for(r=0,t=0,o=0,i=e.length,n=0;n<i;n++)s=e[n],r=s-t,t+=r/(n+1),o+=r*(s-t);return o/(n-1)}V.exports=N
 });var F=d(function(nr,S){
 var k=require('@stdlib/assert-is-array/dist'),I=require('@stdlib/assert-is-number/dist').isPrimitive,K=require('@stdlib/assert-is-plain-object/dist'),z=require('@stdlib/assert-is-nan/dist'),P=require('@stdlib/assert-has-own-property/dist'),j=require('@stdlib/error-tools-fmtprodmsg/dist');function G(e,r){return K(r)?P(r,"alpha")&&(e.alpha=r.alpha,!I(e.alpha)||z(e.alpha))?new TypeError(j('0th8P',"alpha",e.alpha)):P(r,"groups")&&(e.groups=r.groups,!k(e.groups))?new TypeError(j('0th8Z',"groups",e.groups)):null:new TypeError(j('0th2V',r));}S.exports=G
